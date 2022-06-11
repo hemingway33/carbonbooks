@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2DE165E2854990300C0A762 /* CabonbooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE165D2854990300C0A762 /* CabonbooksApp.swift */; };
+		F2DE16602854990300C0A762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE165F2854990300C0A762 /* ContentView.swift */; };
+		F2DE16622854990600C0A762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DE16612854990600C0A762 /* Assets.xcassets */; };
+		F2DE16652854990600C0A762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DE16642854990600C0A762 /* Preview Assets.xcassets */; };
+		F2DE16672854990600C0A762 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE16662854990600C0A762 /* Persistence.swift */; };
+		F2DE166A2854990600C0A762 /* Cabonbooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2DE16682854990600C0A762 /* Cabonbooks.xcdatamodeld */; };
+		F2DE16752854990600C0A762 /* CabonbooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE16742854990600C0A762 /* CabonbooksTests.swift */; };
+		F2DE167F2854990600C0A762 /* CabonbooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE167E2854990600C0A762 /* CabonbooksUITests.swift */; };
+		F2DE16812854990600C0A762 /* CabonbooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE16802854990600C0A762 /* CabonbooksUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2DE16712854990600C0A762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DE16522854990300C0A762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DE16592854990300C0A762;
+			remoteInfo = Cabonbooks;
+		};
+		F2DE167B2854990600C0A762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DE16522854990300C0A762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DE16592854990300C0A762;
+			remoteInfo = Cabonbooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2DE165A2854990300C0A762 /* Cabonbooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cabonbooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DE165D2854990300C0A762 /* CabonbooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabonbooksApp.swift; sourceTree = "<group>"; };
+		F2DE165F2854990300C0A762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2DE16612854990600C0A762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2DE16642854990600C0A762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2DE16662854990600C0A762 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F2DE16692854990600C0A762 /* Cabonbooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cabonbooks.xcdatamodel; sourceTree = "<group>"; };
+		F2DE166B2854990600C0A762 /* Cabonbooks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cabonbooks.entitlements; sourceTree = "<group>"; };
+		F2DE16702854990600C0A762 /* CabonbooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabonbooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DE16742854990600C0A762 /* CabonbooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabonbooksTests.swift; sourceTree = "<group>"; };
+		F2DE167A2854990600C0A762 /* CabonbooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabonbooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DE167E2854990600C0A762 /* CabonbooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabonbooksUITests.swift; sourceTree = "<group>"; };
+		F2DE16802854990600C0A762 /* CabonbooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabonbooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2DE16572854990300C0A762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DE166D2854990600C0A762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DE16772854990600C0A762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2DE16512854990300C0A762 = {
+			isa = PBXGroup;
+			children = (
+				F2DE165C2854990300C0A762 /* Cabonbooks */,
+				F2DE16732854990600C0A762 /* CabonbooksTests */,
+				F2DE167D2854990600C0A762 /* CabonbooksUITests */,
+				F2DE165B2854990300C0A762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2DE165B2854990300C0A762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE165A2854990300C0A762 /* Cabonbooks.app */,
+				F2DE16702854990600C0A762 /* CabonbooksTests.xctest */,
+				F2DE167A2854990600C0A762 /* CabonbooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2DE165C2854990300C0A762 /* Cabonbooks */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE165D2854990300C0A762 /* CabonbooksApp.swift */,
+				F2DE165F2854990300C0A762 /* ContentView.swift */,
+				F2DE16612854990600C0A762 /* Assets.xcassets */,
+				F2DE16662854990600C0A762 /* Persistence.swift */,
+				F2DE166B2854990600C0A762 /* Cabonbooks.entitlements */,
+				F2DE16682854990600C0A762 /* Cabonbooks.xcdatamodeld */,
+				F2DE16632854990600C0A762 /* Preview Content */,
+			);
+			path = Cabonbooks;
+			sourceTree = "<group>";
+		};
+		F2DE16632854990600C0A762 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE16642854990600C0A762 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2DE16732854990600C0A762 /* CabonbooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE16742854990600C0A762 /* CabonbooksTests.swift */,
+			);
+			path = CabonbooksTests;
+			sourceTree = "<group>";
+		};
+		F2DE167D2854990600C0A762 /* CabonbooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE167E2854990600C0A762 /* CabonbooksUITests.swift */,
+				F2DE16802854990600C0A762 /* CabonbooksUITestsLaunchTests.swift */,
+			);
+			path = CabonbooksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2DE16592854990300C0A762 /* Cabonbooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DE16842854990600C0A762 /* Build configuration list for PBXNativeTarget "Cabonbooks" */;
+			buildPhases = (
+				F2DE16562854990300C0A762 /* Sources */,
+				F2DE16572854990300C0A762 /* Frameworks */,
+				F2DE16582854990300C0A762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cabonbooks;
+			productName = Cabonbooks;
+			productReference = F2DE165A2854990300C0A762 /* Cabonbooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2DE166F2854990600C0A762 /* CabonbooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DE16872854990600C0A762 /* Build configuration list for PBXNativeTarget "CabonbooksTests" */;
+			buildPhases = (
+				F2DE166C2854990600C0A762 /* Sources */,
+				F2DE166D2854990600C0A762 /* Frameworks */,
+				F2DE166E2854990600C0A762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2DE16722854990600C0A762 /* PBXTargetDependency */,
+			);
+			name = CabonbooksTests;
+			productName = CabonbooksTests;
+			productReference = F2DE16702854990600C0A762 /* CabonbooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2DE16792854990600C0A762 /* CabonbooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DE168A2854990600C0A762 /* Build configuration list for PBXNativeTarget "CabonbooksUITests" */;
+			buildPhases = (
+				F2DE16762854990600C0A762 /* Sources */,
+				F2DE16772854990600C0A762 /* Frameworks */,
+				F2DE16782854990600C0A762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2DE167C2854990600C0A762 /* PBXTargetDependency */,
+			);
+			name = CabonbooksUITests;
+			productName = CabonbooksUITests;
+			productReference = F2DE167A2854990600C0A762 /* CabonbooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2DE16522854990300C0A762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F2DE16592854990300C0A762 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F2DE166F2854990600C0A762 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F2DE16592854990300C0A762;
+					};
+					F2DE16792854990600C0A762 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F2DE16592854990300C0A762;
+					};
+				};
+			};
+			buildConfigurationList = F2DE16552854990300C0A762 /* Build configuration list for PBXProject "Cabonbooks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2DE16512854990300C0A762;
+			productRefGroup = F2DE165B2854990300C0A762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2DE16592854990300C0A762 /* Cabonbooks */,
+				F2DE166F2854990600C0A762 /* CabonbooksTests */,
+				F2DE16792854990600C0A762 /* CabonbooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2DE16582854990300C0A762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DE16652854990600C0A762 /* Preview Assets.xcassets in Resources */,
+				F2DE16622854990600C0A762 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DE166E2854990600C0A762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DE16782854990600C0A762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2DE16562854990300C0A762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DE166A2854990600C0A762 /* Cabonbooks.xcdatamodeld in Sources */,
+				F2DE16672854990600C0A762 /* Persistence.swift in Sources */,
+				F2DE16602854990300C0A762 /* ContentView.swift in Sources */,
+				F2DE165E2854990300C0A762 /* CabonbooksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DE166C2854990600C0A762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DE16752854990600C0A762 /* CabonbooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DE16762854990600C0A762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DE167F2854990600C0A762 /* CabonbooksUITests.swift in Sources */,
+				F2DE16812854990600C0A762 /* CabonbooksUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2DE16722854990600C0A762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DE16592854990300C0A762 /* Cabonbooks */;
+			targetProxy = F2DE16712854990600C0A762 /* PBXContainerItemProxy */;
+		};
+		F2DE167C2854990600C0A762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DE16592854990300C0A762 /* Cabonbooks */;
+			targetProxy = F2DE167B2854990600C0A762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2DE16822854990600C0A762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2DE16832854990600C0A762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F2DE16852854990600C0A762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cabonbooks/Cabonbooks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cabonbooks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemingway.test.Cabonbooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F2DE16862854990600C0A762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cabonbooks/Cabonbooks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cabonbooks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemingway.test.Cabonbooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F2DE16882854990600C0A762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemingway.test.CabonbooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cabonbooks.app/Contents/MacOS/Cabonbooks";
+			};
+			name = Debug;
+		};
+		F2DE16892854990600C0A762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemingway.test.CabonbooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cabonbooks.app/Contents/MacOS/Cabonbooks";
+			};
+			name = Release;
+		};
+		F2DE168B2854990600C0A762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemingway.test.CabonbooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Cabonbooks;
+			};
+			name = Debug;
+		};
+		F2DE168C2854990600C0A762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemingway.test.CabonbooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Cabonbooks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2DE16552854990300C0A762 /* Build configuration list for PBXProject "Cabonbooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DE16822854990600C0A762 /* Debug */,
+				F2DE16832854990600C0A762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DE16842854990600C0A762 /* Build configuration list for PBXNativeTarget "Cabonbooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DE16852854990600C0A762 /* Debug */,
+				F2DE16862854990600C0A762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DE16872854990600C0A762 /* Build configuration list for PBXNativeTarget "CabonbooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DE16882854990600C0A762 /* Debug */,
+				F2DE16892854990600C0A762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DE168A2854990600C0A762 /* Build configuration list for PBXNativeTarget "CabonbooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DE168B2854990600C0A762 /* Debug */,
+				F2DE168C2854990600C0A762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2DE16682854990600C0A762 /* Cabonbooks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2DE16692854990600C0A762 /* Cabonbooks.xcdatamodel */,
+			);
+			currentVersion = F2DE16692854990600C0A762 /* Cabonbooks.xcdatamodel */;
+			path = Cabonbooks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2DE16522854990300C0A762 /* Project object */;
+}
